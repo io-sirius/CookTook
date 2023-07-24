@@ -12,6 +12,10 @@
 		4910DE6D2A6CEA5100F738E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4910DE6C2A6CEA5100F738E3 /* Assets.xcassets */; };
 		4910DE702A6CEA5100F738E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4910DE6F2A6CEA5100F738E3 /* Preview Assets.xcassets */; };
 		49C6CA822A6D45C200AF89DC /* ImcreSoojin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49C6CA812A6D45C200AF89DC /* ImcreSoojin.ttf */; };
+		49C6CAA62A6D6B5300AF89DC /* Korean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C6CAA52A6D6B5300AF89DC /* Korean.swift */; };
+		49C6CAA82A6D86BB00AF89DC /* Japan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C6CAA72A6D86BB00AF89DC /* Japan.swift */; };
+		49C6CAAA2A6D86C900AF89DC /* China.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C6CAA92A6D86C900AF89DC /* China.swift */; };
+		49C6CAAC2A6D874200AF89DC /* West.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C6CAAB2A6D874200AF89DC /* West.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		4910DE6F2A6CEA5100F738E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49C6CA802A6D44E500AF89DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		49C6CA812A6D45C200AF89DC /* ImcreSoojin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ImcreSoojin.ttf; sourceTree = "<group>"; };
+		49C6CAA52A6D6B5300AF89DC /* Korean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Korean.swift; sourceTree = "<group>"; };
+		49C6CAA72A6D86BB00AF89DC /* Japan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Japan.swift; sourceTree = "<group>"; };
+		49C6CAA92A6D86C900AF89DC /* China.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = China.swift; sourceTree = "<group>"; };
+		49C6CAAB2A6D874200AF89DC /* West.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = West.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				49C6CA802A6D44E500AF89DC /* Info.plist */,
 				4910DE682A6CEA5000F738E3 /* CookTookApp.swift */,
 				4910DE6A2A6CEA5000F738E3 /* ContentView.swift */,
+				49C6CAA52A6D6B5300AF89DC /* Korean.swift */,
+				49C6CAA72A6D86BB00AF89DC /* Japan.swift */,
+				49C6CAA92A6D86C900AF89DC /* China.swift */,
+				49C6CAAB2A6D874200AF89DC /* West.swift */,
 				4910DE6C2A6CEA5100F738E3 /* Assets.xcassets */,
 				49C6CA7F2A6D40F500AF89DC /* Font */,
 				4910DE6E2A6CEA5100F738E3 /* Preview Content */,
@@ -151,7 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49C6CAAA2A6D86C900AF89DC /* China.swift in Sources */,
+				49C6CAA82A6D86BB00AF89DC /* Japan.swift in Sources */,
+				49C6CAA62A6D6B5300AF89DC /* Korean.swift in Sources */,
 				4910DE6B2A6CEA5000F738E3 /* ContentView.swift in Sources */,
+				49C6CAAC2A6D874200AF89DC /* West.swift in Sources */,
 				4910DE692A6CEA5000F738E3 /* CookTookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
